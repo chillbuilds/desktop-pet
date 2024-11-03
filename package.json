@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^31.0.2"
+    "electron": "^33.0.2"
   },
   "dependencies": {
     "global-mouse-events": "^1.2.0"
