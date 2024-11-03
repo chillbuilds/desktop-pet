@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html style="background: rgba(0,0,0,0);">
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>test</title>
+    <link rel="stylesheet" href="../styles/style.css">
+  </head>
+  <body>
+
+    <div id="score-container">
+      <span>points: </span><div id="score">0</div>
+    </div>
+
+    <div id="pet-container">
+        <div id="pet">
+            <img id="pet-img" src="../images/burger.png">
+        </div>
+    </div>
+
+    <!-- You can also require other files to run in this process -->
+    <script src="../scripts/jquery.js"></script>
+    <script src="../scripts/pet-script.js"></script>
+    <script src="../scripts/script.js"></script>
+    <script src="../../renderer.js"></script>
+  </body>
+</html>

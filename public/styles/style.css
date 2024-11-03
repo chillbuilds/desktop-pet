@@ -1,0 +1,29 @@
+body {
+    user-select: none;
+    overflow: hidden;
+}
+
+#score-container {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 240px;
+    height: 60px;
+    background: rgba(0,0,0,0.4);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 12px;
+}
+
+#pet {
+    width: min-content;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#pet-img {
+    width: 64px;
+}
